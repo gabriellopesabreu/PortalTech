@@ -1,0 +1,60 @@
+Entender situações do cotidiano… para tomada de decisão 
+
+1 - Elabore um algoritmo que possa descobrir, através de perguntas e respostas, em qual área de um restaurante uma pessoa ou grupo de pessoas precisa ser alocada. 
+O restaurante tem três áreas: térreo, 1ro andar, e área externa. Clientes fumantes ou com animais de estimação precisam ser alocadas na área externa. 
+Grupos de 5 ou mais precisam ser alocados no 1ro andar, pois não dá para juntar mesas no térreo. Qualquer outro grupo de pessoas pode ser alocado no térreo. 
+
+ALGORITMO 
+
+
+  VAR 
+  fumante:lógico 
+  animais:lógico 
+  quantidade:inteiro  
+
+inicio
+  Escreva(“O número do grupo de pessoas é maior que 4 ?”); 
+
+  Leia(quantidade); 
+
+  Escreva(“Terá animais acompanhando?”) 
+
+  Leia(animais); 
+
+  Escreva(“Mesa para fumantes?”) 
+
+  Leia(fumantes); 
+
+    se
+	animais = sim ou fumantes = sim e quantidade > 4
+	escreva("Dirija-se a Área externa");
+    se
+        animais = não e fumantes = não e quantidade > 4
+	escreva("Dirija-se ao primeiro andar");
+    senao
+        escrever "Dirija-se ao Térreo"
+    fimse
+fimalgoritmo
+
+
+2 - Usar métodos de repetição… agilizar os processos 
+
+Num torneio de e-sports é necessário que todos os integrantes da mesma equipe tenham etiquetas que os identifiquem. Por exemplo, se o nome da equipe é “Os Lutadores”, 
+o primeiro membro deve ter uma etiqueta “Os Lutadores – 1", o segundo membro “Os Lutadores – 2", e assim pela frente. 
+Elabore um algoritmo que permita ao usuário inserir o nome da equipe, e imprime etiquetas para os 5 membros da equipe seguindo o exemplo mostrado acima. 
+
+var
+time:caractere
+i=1
+
+inicio
+  Escreva("Qual é o nome do time?");
+  leia(time);
+
+    para ( seja i igual a 1 ; enquanto i for menor ou igual a 5 ; incremente i em 1 )
+      imprima (time, + , " - " , + , i );
+    fimpara
+  imprima "Fim"
+fimalgoritmo
+
+
