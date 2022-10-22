@@ -1,0 +1,20 @@
+--Tipos de identificadores--
+Caractere
+Inteiro
+real
+logico
+
+--Declaração das Variaveis--
+Nome: caractere
+CPF: inteiro
+rg: inteiro
+altura: real
+endereço: caractere
+
+--Utilização do Comando de Atribuição--
+atribuiçao
+Nome <- José Almeida da Silva
+CPF <- 12345678900
+RG <- 9517530
+Altura <- 1,78
+Endereço <- Rua A, 380 – Centro – Recife/PE

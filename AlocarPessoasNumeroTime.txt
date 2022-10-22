@@ -13,24 +13,24 @@ ALGORITMO
   quantidade:inteiro  
 
 inicio
-  Escreva(“O número do grupo de pessoas é maior que 4 ?”); 
+  escreva(“O número do grupo de pessoas é maior que 4 ?”)
 
-  Leia(quantidade); 
+  leia(quantidade)
 
-  Escreva(“Terá animais acompanhando?”) 
+  escreva(“Terá animais acompanhando?”) 
 
-  Leia(animais); 
+  leia(animais)
 
-  Escreva(“Mesa para fumantes?”) 
+  escreva(“Mesa para fumantes?”) 
 
-  Leia(fumantes); 
+  leia(fumantes)
 
     se
 	animais = sim ou fumantes = sim e quantidade > 4
-	escreva("Dirija-se a Área externa");
+	escreva("Dirija-se a Área externa")
     se
         animais = não e fumantes = não e quantidade > 4
-	escreva("Dirija-se ao primeiro andar");
+	escreva("Dirija-se ao primeiro andar")
     senao
         escrever "Dirija-se ao Térreo"
     fimse
@@ -48,8 +48,8 @@ time:caractere
 i=1
 
 inicio
-  Escreva("Qual é o nome do time?");
-  leia(time);
+  escreva("Qual é o nome do time?")
+  leia(time)
 
     para ( seja i igual a 1 ; enquanto i for menor ou igual a 5 ; incremente i em 1 )
       imprima (time, + , " - " , + , i );

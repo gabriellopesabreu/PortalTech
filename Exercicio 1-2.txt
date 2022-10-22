@@ -1,0 +1,4 @@
+Não foi nenhum dos alunos antigos. 
+a disposição feita pelo professor separou intercalando 4 x 2 quem gosta de Matematica. Primeira coluna 4 pessoas, segunda coluna 2 pessoas, terceira coluna 4 pessoas e assim sussecivamente
+a disposição feita por quem gosta de portugues foi parecida, mas utilizando as linhas. Também 4 x 2 
+Sabendo que nao foi os alunos antigo e que na sexta coluna e linha possui numero diferente de 4 e 2 de alunos que gostam de Portugues ou de Matematica, achou a cadeira de quem fez a alteração.
