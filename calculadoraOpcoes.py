@@ -1,3 +1,6 @@
+number1 = int(input("Digite o primeiro numero "))
+number2 = int(input("Digite o segundo numero "))
+
 def calculadora(numer1, number2):
  opcao = ""
  while opcao != 0:
