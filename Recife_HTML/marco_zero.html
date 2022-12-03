@@ -4,60 +4,172 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Marco Zero</title>
   </head>
 
   <body>
     <header>
-      <nav>
-        <ul>
-          <li><a href="https://pt.wikipedia.org/wiki/Recife" target="_blank">Cidade de Recife</a></li>
-          <li><a href="https://pt.weatherspark.com/y/31432/Clima-caracter%C3%ADstico-em-Recife-Brasil-durante-o-ano" target="_blank">Melhor temporada para visitar</a></li>
-          <li><a href="https://www.viagensecaminhos.com/2014/05/recife-pe.html" target="_blank">Lista de pontos turísticos de Recife</a></li>
-          <li><a href="./recife_antigo.html" target="_blank">Recife Antigo</a></li>
-        </ul>
-      </nav>
+      <div class="nav-bar">
+        <nav>
+          <ul>
+            <li>
+              <a href="https://pt.wikipedia.org/wiki/Recife" target="_blank"
+                >Cidade de Recife</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://pt.weatherspark.com/y/31432/Clima-caracter%C3%ADstico-em-Recife-Brasil-durante-o-ano"
+                target="_blank"
+                >Melhor temporada para visitar</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.viagensecaminhos.com/2014/05/recife-pe.html"
+                target="_blank"
+                >Lista de pontos turísticos de Recife</a
+              >
+            </li>
+            <li>
+              <a href="./recife_antigo.html" target="_blank">Recife Antigo</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-      <h1>Marco Zero</h1>
-      <section>
-        <span
-          >A Praça do Marco Zero não é apenas o epicentro cultural de Recife,
-          mas também o início de todos os caminhos de Pernambuco.
-        </span>
-        <div>
-          <img
-            src="./img/Praca-do-Maraco-Zero-Rosa-dos-Ventos-Abre-850x667.jpg"
-            alt="Praça do Marco 0"
-          />
+      <div class="title-name">
+        <h1>Marco Zero</h1>
+      </div>
+
+      <!-- Cards no canto da tela -->
+      <div class="container__section">
+        <div class="container__sugestion-cards">
+          <div class="title-sugestion-cards">
+            <h2>Ultimos Artigos</h2>
+          </div>
+          <div class="sugestion-cards">
+            <a href="#" target="_blank">
+              <img
+                src="https://www.viajali.com.br/wp-content/uploads/2018/10/o-que-fazer-em-recife-1.jpg"
+                alt="Praia de Boa Viagem"
+                width="200px"
+                height="150px"
+              />
+              <div class="sugestion-card-title">
+                <h3>Praia de Boa Viagem</h3>
+              </div>
+              </a>
+          </div>
+
+          <div class="sugestion-cards">
+            <a href="#" target="_blank">
+              <img
+                src="https://www.viajali.com.br/wp-content/uploads/2018/10/o-que-fazer-em-recife-19-1.jpg"
+                alt="Capela Dourada"
+                width="200px"
+                height="150px"
+              />
+              <div class="sugestion-card-title">
+                <h3>Capela Dourada</h3>
+              </div>
+              </a>
+          </div>
+      
+          <div class="sugestion-cards">
+            <a href="#" target="_blank">
+              <img
+                src="https://www.viajali.com.br/wp-content/uploads/2018/10/o-que-fazer-em-recife-10-1.jpg"
+                alt="Rua do Bom Jesus e Praça do Arsenal"
+                width="200px"
+                height="150px"
+              />
+              <div class="sugestion-card-title">
+                <h3>Rua do Bom Jesus e Praça do Arsenal</h3>
+              </div>
+              </a>
+          </div>
         </div>
-        <p>
-          O nome de Praça do Marco Zero se popularizou por conta da instalação,
-          em 31 de janeiro de 1938, do Marco Zero de Recife, doado à cidade pelo
-          Automóvel Clube de Pernambuco. A placa redonda posicionada na praça
-          simboliza o centro geográfico de onde partem as medições para todas as
-          estradas de Pernambuco.
-        </p>
-        <img src="./img/marco_zero.png" alt="Marco Zero" />
-      </section>
-      <div>
-        <h3>
-          Para conhecer mais acesse esse
-          <a
-            href="https://meulugar.quintoandar.com.br/praca-do-marco-zero/"
-            target="_blank"
-            >link</a
-          >
-        </h3>
+
+        <!-- Texto principal -->
+        <section>
+          <div class="introduction-section">
+            <span
+              >A Praça do Marco Zero não é apenas o epicentro cultural de
+              Recife, mas também o início de todos os caminhos de Pernambuco.
+            </span>
+          </div>
+          <div class="photo-top-section">
+            <img
+              src="./img/Praca-do-Maraco-Zero-Rosa-dos-Ventos-Abre-850x667.jpg"
+              alt="Praça do Marco 0"
+            />
+          </div>
+          <div class="text-section">
+            <p>
+              O nome de Praça do Marco Zero se popularizou por conta da
+              instalação, em 31 de janeiro de 1938, do Marco Zero de Recife,
+              doado à cidade pelo Automóvel Clube de Pernambuco. A placa redonda
+              posicionada na praça simboliza o centro geográfico de onde partem
+              as medições para todas as estradas de Pernambuco. Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Voluptates tempora,
+              ducimus laboriosam sed quo dicta porro harum commodi laudantium
+              odit.
+            </p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio quidem voluptatum voluptatem consequuntur facere
+              accusantium corporis quae earum, magni quam molestias nemo, ullam
+              sunt. Rem eius culpa enim veritatis quaerat! Quidem velit magnam
+              maiores, sint neque facilis minima, quia quis sit est cum optio
+              adipisci illum quam, distinctio harum consectetur? Perferendis
+              nostrum temporibus, cupiditate nemo vero quidem ex deserunt
+              deleniti. Sapiente excepturi facere nesciunt tempore fuga
+              inventore doloribus libero facilis ipsam qui perferendis labore
+              accusamus quidem corporis fugit ab, odio consequuntur atque quos
+              natus laboriosam! Recusandae ex accusamus laboriosam assumenda.
+              Quae assumenda tenetur veniam, delectus nulla ex quia dolores,
+              quisquam dolorum facilis veritatis, magnam dolorem placeat.
+              Dolore, quos! Laboriosam minima dolore commodi amet itaque
+              incidunt quis possimus nemo porro eveniet? Cum ipsa neque minus
+              sequi vitae sed aut tenetur voluptas, at, consequuntur eum porro
+              illum voluptatibus, distinctio veniam consequatur tempora sunt! Ea
+              optio voluptatibus qui earum exercitationem nulla, accusantium
+              corporis.
+            </p>
+          </div>
+          <div class="photo-bottom-section">
+            <img src="./img/marco_zero.png" alt="Marco Zero" />
+          </div>
+          <div class="known-more">
+            <h3>
+              Para conhecer mais acesse esse
+              <a
+                href="https://meulugar.quintoandar.com.br/praca-do-marco-zero/"
+                target="_blank"
+                >link</a
+              >
+            </h3>
+          </div>
+        </section>
       </div>
     </main>
+
     <footer>
-      <span>Todos os direitos reservados</span>
-      <ul>
-        <li>Contato</li>
-        <li>Redes Sociais</li>
-        <li>Termos de compromisso</li>
-      </ul>
+      <div class="container__footer">
+        <div class="span-note-footer">
+          <span>Todos os direitos reservados</span>
+        </div>
+        <div class="list-footer">
+          <ul>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Redes Sociais</a></li>
+            <li><a href="#">Termos de compromisso</a></li>
+          </ul>
+        </div>
+      </div>
     </footer>
   </body>
 </html>

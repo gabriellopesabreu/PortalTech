@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header,
+footer {
+  background-color: #efe1ce;
+  height: 4rem;
+}
+
+.nav-bar,
+.container__footer {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+.nav-bar ul,
+.list-footer ul {
+  display: flex;
+}
+
+.nav-bar li,
+.list-footer li,
+.span-note-footer {
+  margin-right: 2rem;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title-name {
+  margin: 1rem;
+  font-size: 2.5rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+
+.container__section {
+  display: flex;
+  flex-direction: row;
+}
+
+.container__sugestion-cards {
+  margin: 5rem 2.5rem;
+}
+
+.sugestion-cards {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.title-sugestion-cards {
+  text-align: center;
+}
+
+.introduction-section {
+  margin: 1rem 5rem 1rem 5rem;
+}
+
+.introduction-section span {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.text-section p {
+  font-size: 1.3rem;
+  margin: 3rem 7rem 3rem 7rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.photo-top-section,
+.photo-bottom-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 6.3rem;
+}
+
+.photo-top-section img, .photo-bottom-section img{
+    height: auto;
+    width: 50rem;
+}
+
+.known-more {
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+}
