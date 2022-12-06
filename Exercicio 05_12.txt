@@ -1,0 +1,5 @@
+Prettier - formatador de codigos
+Live Server - Executar no serve local o script em desenvolvimento
+Auto Rename Tag - Para renomear as tags de HTML
+Auto Close Tag - Para assim que criar um elemento, criar a tag de fechamento
+Material Icon Theme - Mudar os icones do VS CODE
