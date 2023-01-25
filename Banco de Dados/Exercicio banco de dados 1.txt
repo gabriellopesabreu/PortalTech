@@ -1,0 +1,10 @@
+O Sistema de Gerenciamento de Bancos de Dados é um conjunto de programas que serve para gerenciar um ou mais bancos de dados. 
+Sendo assim, pesquise sobre os bancos de dados mais utilizados no mercado de trabalho e descreva dois deles.
+
+    Oracle: É um sistema de gerenciamento de banco de dados relacional.
+É amplamente utilizado em grandes empresas devido à sua escalabilidade e confiabilidade. 
+Possui recursos avançados de segurança, recuperação de desastres e gerenciamento de dados distribuídos.
+
+    MySQL: É um sistema de gerenciamento de banco de dados relacional de código aberto. 
+É amplamente utilizado em aplicações web, devido à sua velocidade e simplicidade. 
+Possui uma grande comunidade de usuários e desenvolvedores, o que garante suporte constante e atualizações regulares.

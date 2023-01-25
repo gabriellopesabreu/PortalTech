@@ -1,0 +1,11 @@
+O desenvolvimento de um projeto de banco de dados passa por fases importantes para a sua implementação, como a de projeto conceitual. 
+Diante disso, crie uma entidade que tenha atributos simples, composto e multivalorado.
+
+Entidade Pessoa
+
+    Nome: "João Silva" (Atributos simples)
+    Idade: 25 (Atributos simples)
+    Sexo: "Masculino" (Atributos simples)
+    Endereço: {Rua: "Av. Paulista", Número: "1000", Cidade: "São Paulo", Estado: "SP"} (Atributos composto)
+    Telefones: ["(11) 99999-9999", "(11) 88888-8888"] (Atributos multivalorado)
+    Interesses: ["esportes", "viagens", "leitura"] (Atributos multivalorado)
