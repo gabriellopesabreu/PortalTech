@@ -1,0 +1,13 @@
+1 - σ nota >= 7
+2 - π serie = '1o ano' σ nota >= 8
+3 - π p.nome and nota
+4 - 
+ALUNO(PNome, UNome) = SELECT (PNome, UNome) FROM ALUNOS
+5 - 
+PROFESSOR(PNome, UNome) = SELECT (PNome, UNome) FROM PROFESSOR
+6 - 
+UNIÃO = ALUNO(PNome, UNome) UNION PROFESSOR(PNome, UNome)
+7 - 
+INTERSECÇÃO = ALUNO(PNome, UNome) INTERSECT PROFESSOR(PNome, UNome)
+8 - 
+DIFERENÇA = ALUNO(PNome, UNome) MINUS PROFESSOR(PNome, UNome)

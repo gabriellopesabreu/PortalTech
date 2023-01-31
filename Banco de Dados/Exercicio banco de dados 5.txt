@@ -1,0 +1,15 @@
+A arquitetura cliente-servidor é composta por dois componentes principais: 
+o cliente e o servidor. O cliente é responsável por solicitar informações ou recursos ao servidor, 
+enquanto o servidor é responsável por receber e processar as solicitações do cliente e fornecer as informações
+ou recursos solicitados
+
+Na arquitetura cliente-servidor, o cliente pode ser uma aplicação ou dispositivo, 
+como um computador pessoal, tablet ou smartphone, enquanto o servidor é geralmente uma máquina dedicada 
+com software específico.
+
+Ao fazer uma solicitação ao servidor, o cliente envia uma mensagem para o servidor usando uma rede, como a Internet. 
+O servidor recebe a mensagem, processa a solicitação e, em seguida, envia uma resposta de volta ao cliente.
+
+Esta arquitetura é amplamente utilizada em aplicações como sites da Web, sistemas de e-mail, 
+serviços de nuvem e muito mais. Ao utilizar a arquitetura cliente-servidor, as tarefas de processamento intensivo 
+são realizadas pelo servidor, enquanto o cliente é responsável apenas por exibir as informações e interagir com o usuário.
