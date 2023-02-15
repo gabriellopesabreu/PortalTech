@@ -1,0 +1,8 @@
+Comprimento: Uma das maneiras mais eficazes de criar senhas fortes é aumentando o comprimento da senha. Uma senha com mais caracteres é mais difícil de ser quebrada por força bruta 
+ou ataques de dicionário. Recomenda-se que as senhas tenham pelo menos 12 caracteres ou mais.
+
+Complexidade: Senhas mais complexas também são mais difíceis de serem quebradas. Uma senha forte deve incluir letras maiúsculas e minúsculas, números e caracteres especiais, 
+como @, #, $ e %. Isso aumenta a combinação de possíveis senhas e torna mais difícil para hackers descobrirem a senha.
+
+Diversidade: Usar a mesma senha para várias contas pode ser tentador, mas é uma prática insegura. Se uma senha for comprometida, todas as contas usando essa senha estarão em risco. 
+É importante criar senhas únicas e fortes para cada conta. Para facilitar a memorização de senhas diferentes, uma dica é usar um gerenciador de senhas, que criptografa e armazena todas as senhas em um local seguro.
