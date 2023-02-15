@@ -1,0 +1,12 @@
+Os pilares da segurança de dados são três importantes aspectos que devem ser considerados para garantir a segurança e o sucesso de um banco de dados:
+ Integridade, Confidencialidade e Disponibilidade. Aqui está uma explicação mais detalhada de cada pilar:
+
+Integridade: Este pilar se refere à precisão e consistência dos dados armazenados no banco de dados. É importante que as informações sejam precisas e não sejam corrompidas, 
+a fim de garantir que as decisões baseadas nessas informações sejam precisas. Isso pode ser garantido através de validações de dados, restrições de integridade e backups regulares.
+
+Confidencialidade: Este pilar se refere à proteção dos dados sensíveis armazenados no banco de dados. Isso inclui garantir que somente as pessoas autorizadas tenham acesso a esses dados 
+e que eles não sejam compartilhados com terceiros sem autorização. Isso pode ser garantido através de criptografia, autenticação e autorização, e controle de acesso aos dados.
+
+Disponibilidade: Este pilar se refere à capacidade de acessar e usar os dados armazenados no banco de dados sempre que precisarem. Isso inclui garantir que o banco de dados
+ esteja sempre disponível para uso e que não haja interrupções ou falhas no sistema. Isso pode ser garantido através de redundância de hardware, backups regulares e 
+monitoramento do sistema para detectar e corrigir problemas rapidamente.
